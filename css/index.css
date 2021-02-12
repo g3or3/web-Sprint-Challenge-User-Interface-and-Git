@@ -99,6 +99,15 @@ header nav a {
     color: black;
 }
 
+.image-header {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-header img {
+    width: 100%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
