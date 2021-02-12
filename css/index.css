@@ -59,8 +59,8 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 3.5rem;
-    margin-bottom: 15px;
+    font-size: 3.8rem;
+    margin-bottom: 1.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -118,6 +118,10 @@ header nav a {
     justify-content: space-evenly;
     border-bottom: 1px dashed black;
     height: 35rem;
+}
+
+.top-content h2 {
+    margin-bottom: 3%;
 }
 
 .top-content .text-container {
@@ -203,6 +207,10 @@ header nav a {
     margin-right: 5%;
 }
 
+.bottom-content h2 {
+    margin-bottom: 5%;
+}
+
 .bottom-content .text-container:last-child {
     margin-right: 0;
 }
@@ -226,4 +234,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-section {
+    padding: 2% 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-section p {
+    padding: 1% 0;
+}
+
+.about-half {
+    width: 97%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-vert {
+    width: 48%;
+}
+
+.right-vert {
+    width: 48%;
+}
+
+.imgs img {
+    width: 100%;
+}
+
+.about-text {
+    margin: 5% 0;
+    padding-bottom: 4%;
+    border-bottom: 1px dashed black;
+}
+
+.about-text h2, .about-text p {
+    margin-bottom: 4%;
+}
+
+.about-bottom {
+    width: 97%;
+    margin: 3% auto 5% auto;
+}
+
+.about-bottom h2 {
+    margin-bottom: 2%;
 }
